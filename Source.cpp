@@ -28,11 +28,9 @@ int main()
         }
     }
 
-    std::cout << "Plaintext: " <<plaintext << std::endl;
-    std::cout << "Key: " << key << std::endl; 
+    std::cout << "Plaintext: " <<plaintext << std::endl << "Key: " << key << std::endl;
 
     std::string encryptedText;
-
     for (int i = 0; i != plaintext.length(); i++)
     {
         if (plaintext[i] == key[i])
